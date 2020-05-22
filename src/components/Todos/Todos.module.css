@@ -1,0 +1,89 @@
+.completed {
+  text-decoration: line-through;
+  color: red;
+  opacity: 0.7;
+}
+.myColor {
+  color: #000;
+  opacity: 1;
+}
+
+.todo {
+  width: 71vw;
+  background-color: #badc57;
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 4px 3px rgba(0, 0, 0, 0.1);
+  text-transform: capitalize;
+}
+.todo p {
+  margin: 12px;
+  font-size: 22px;
+  width: 60vw;
+  word-wrap: break-word;
+}
+.buttonSection {
+  width: 11vw;
+  display: flex;
+}
+
+button {
+  border: none;
+  margin: 0px 10px;
+  background-color: #badc57;
+}
+
+.icon {
+  font-size: 22px;
+  color: green;
+}
+.icon,
+.changeIcon :hover {
+  color: green;
+}
+.icon2 {
+  font-size: 22px;
+  color: red;
+}
+.changeIcon {
+  font-size: 22px;
+  color: red;
+}
+@media screen and (max-width: 800px) {
+  .todo {
+    width: 96vw;
+    margin: 10px 0px;
+  }
+  .todo p {
+    margin: 8px;
+    width: 75vw;
+    font-size: 18px;
+    word-wrap: break-word;
+  }
+  .buttonSection {
+    width: 20vw;
+  }
+  button {
+    margin: 0px 5px 0px 0px;
+    cursor: pointer;
+  }
+
+  .icon {
+    font-size: 18px;
+    color: green;
+  }
+  .icon,
+  .changeIcon :hover {
+    color: green;
+  }
+  .icon2 {
+    font-size: 18px;
+    color: red;
+  }
+  .changeIcon {
+    font-size: 18px;
+    color: red;
+  }
+}

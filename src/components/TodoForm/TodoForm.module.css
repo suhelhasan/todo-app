@@ -1,0 +1,53 @@
+.TodoForm {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  box-sizing: border-box;
+}
+.inputBox {
+  width: 70vw;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  box-shadow: 2px 2px 4px 3px rgba(0, 0, 0, 0.1);
+}
+.todoFormButton {
+  font-size: 15px;
+  padding: 8px 15px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 4px 3px rgba(0, 0, 0, 0.1);
+  margin: 15px;
+  cursor: pointer;
+}
+.icon {
+  font-size: 20px;
+  color: green;
+}
+.icon2 {
+  font-size: 20px;
+  color: red;
+}
+@media screen and (max-width: 800px) {
+  .TodoForm h1 {
+    font-size: 25px;
+    margin: 15px;
+  }
+  .inputBox {
+    margin-top: 15px;
+    width: 90vw;
+  }
+  .todoFormButton {
+    width: 36vw;
+    font-size: 12px;
+    margin: 10px 5px 18px 5px;
+  }
+  .icon {
+    font-size: 20px;
+    color: green;
+  }
+  .icon2 {
+    font-size: 20px;
+    color: red;
+  }
+}
