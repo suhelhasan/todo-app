@@ -48,7 +48,7 @@ export default function TodoForm() {
           onChange={(e) => setTask(e.target.value)}
           className={styling.inputBox}
           placeholder='enter your task..'
-          autofocus="autofocus"
+          autoFocus
         />
       </div>
       <div>

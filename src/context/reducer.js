@@ -1,7 +1,9 @@
-import { ADD_TODO, REMOVE_TODO, MARK_AS_DONE, REMOVE_ALL } from './action.types';
+import { GET_FROM_LOCAL, ADD_TODO, REMOVE_TODO, MARK_AS_DONE, REMOVE_ALL } from './action.types';
 
 const reducer = (state, action) => {
     switch (action.type) {
+        case GET_FROM_LOCAL:
+            return [...action.payload];
         case ADD_TODO:
             return [...state, action.payload];
         case MARK_AS_DONE:
